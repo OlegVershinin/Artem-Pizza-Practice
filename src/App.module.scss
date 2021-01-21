@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  background-color: #ecf0f3;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.radiogroup {
+  margin-top: 2vh;
+  padding: 48px 64px;
+  border-radius: 16px;
+  background: #ecf0f3;
+  box-shadow: 4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+
+.pages {
+  margin-top: 30vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  padding-left: 5vh;
+  text-decoration: none;
+}
+
+.btn {
+  text-decoration: none;
+}
